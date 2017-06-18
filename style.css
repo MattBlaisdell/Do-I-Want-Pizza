@@ -1,0 +1,63 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size:10px;
+
+}
+
+.content {
+  background:  url('img/pizza.svg') ;
+  height:100%;
+  width:100%;
+  background-size:cover;
+  position:absolute;
+}
+.container {
+  color:#fff;
+  margin:0 auto;
+}
+
+
+.probably {
+position:absolute;
+  top:20%;
+    text-align:left;
+
+
+}
+
+.probably h1 {
+font-size: 100px;
+  font-weight:900;
+}
+
+
+.probably p {
+font-size:30px;
+  font-weight:300;
+  line-height:30px;
+}
+
+.pizza {
+  background:#f7e641;
+  margin:20px;
+  border-radius:0px !important;
+  padding:18px 20px !important;
+  height:60px;
+}
+
+
+.pizza a {
+    text-decoration:none;
+color:#c92327;
+  font-weight:900;
+  font-size:20px;
+}
+
+.btn a:hover {
+  text-decoration:none;
+  color:green;
+}
+
+.pizza:hover {
+background:#fff;  color:green;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+
+
+  <div class="content-outer">
+  <div class="content">
+  <div class="container probably">
+    <p>"Should I get pizza?"</p>
+    <h1 class=""> Probably.</h1>
+    <p> Go get yourself some 'za. </p>
+    <br>
+    <a href="https://www.google.com/#q=pizza+near+me" target="_blank"><button class="btn pizza">Find me some 'za</btn></a>
+  </div> <!--/.container -->
+    </div> <!--/.content -->
+  </div>
+
+
+  <script>
+    function resize() {
+    var n = $("body").width() / 7 + "pt";
+    $("h1").css('fontSize', n);
+    }
+$(window).on("resize", resize);
+$(document).ready(resize);
+  </script>
+</body>
+</html>
