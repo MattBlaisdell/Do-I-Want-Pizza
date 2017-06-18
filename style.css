@@ -6,7 +6,7 @@ body {
 }
 
 .content {
-  background:  url('/pizza.jpg') ;
+  background:  url('pizza.jpg') ;
   height:100%;
   width:100%;
   background-size:cover;
